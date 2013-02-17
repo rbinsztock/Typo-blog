@@ -88,6 +88,7 @@ GEM
       net-ssh (>= 1.99.1)
     net-ssh (2.6.5)
     nokogiri (1.5.6)
+    pg (0.14.1)
     polyglot (0.3.3)
     prototype-rails (3.2.1)
       rails (~> 3.2)
@@ -149,7 +150,6 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sqlite3 (1.3.7)
     subexec (0.0.4)
     thin (1.5.0)
       daemons (>= 1.0.9)
@@ -185,6 +185,7 @@ DEPENDENCIES
   htmlentities
   kaminari
   mini_magick (~> 1.3.3)
+  pg
   prototype-rails (~> 3.2.1)
   prototype_legacy_helper (= 0.0.0)!
   pry-rails
@@ -196,7 +197,6 @@ DEPENDENCIES
   rspec-rails (~> 2.12.0)
   rubypants (~> 0.2.0)
   simplecov
-  sqlite3
   thin
   uuidtools (~> 2.1.1)
   webrat
